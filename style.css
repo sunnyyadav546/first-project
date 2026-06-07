@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+/* NAVBAR */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: green;
+    padding: 15px 30px;
+    color: white;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    height: 80vh;
+    background: url("assets/image.jpg") no-repeat center/cover;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-left: 50px;
+}
+
+.hero h1 {
+    font-size: 50px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn1 {
+    background: orange;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn2 {
+    background: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* FEATURES */
+.features {
+    text-align: center;
+    padding: 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 200px;
+    padding: 20px;
+    background: #f2f2f2;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
